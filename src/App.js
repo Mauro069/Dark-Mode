@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Foto from "./Foto.jpeg";
-import "./Checkbox.css";
-import "./Dark.css";
-import "./App.css";
+import "./Styles/Checkbox.css";
+import "./Styles/Dark.css";
+import "./Styles/App.css";
 
 const App = () => {
   const [Dark, setDark] = useState(false);
