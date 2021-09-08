@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Foto from "./Foto.jpeg";
+import "./Checkbox.css";
+import "./Dark.css";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [Dark, setDark] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className={Dark ? "container__dark" : "container"}>
+        <div className="header"></div>
+        <div className={Dark ? "container__data__dark" : "container__data"}>
+          <img src={Foto} alt="img"></img>
+          <h3> Mauro Vera </h3>
+          <p> Frontend Developer </p>
+          <p> Diseñador Gráfico </p>
+        </div>
+      </div>
+      <label class="content-input">
+        <input type="checkbox" onClick={() => setDark(!Dark)} />
+        <i></i>
+      </label>
+    </main>
   );
-}
+};
 
 export default App;
