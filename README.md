@@ -1,3 +1,3 @@
-# Queres saber como hacer Dark mode tu pagina web muy simple?
-Aca te dejo una solucion, no es la mas optima, pero te va a servir.
+# ¿Querés saber como hacer Dark mode tu pagina web muy simple?
+Acá te dejo una solución, no es la mas óptima, pero te va a servir.
 
