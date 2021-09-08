@@ -1,0 +1,23 @@
+.container__dark {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 10px;
+}
+
+.container__data__dark {
+  width: 250px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -50px;
+  border: 2px solid white;
+}
